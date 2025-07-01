@@ -1,59 +1,62 @@
-# generador-seguro-contrase-as
 Proyecto de aplicación para generar contraseñas seguras
 
-# Generador Seguro de Contraseñas 🔐
-Este proyecto es un generador de contraseñas simples y seguras hecho en Python.  
-Está diseñado usando únicamente instrucciones básicas: sin funciones (`def`), sin listas (`[]`), sin `import`, y sin ningún editor como Visual Studio Code.  
-Todo el desarrollo fue realizado con el terminal de comandos y Git.
+# Generador Seguro de Contraseñas
+Este es un proyecto hecho en Python para crear contraseñas seguras y sencillas.  
+Fue desarrollado con instrucciones básicas: sin utilizar funciones (`def`), sin listas (`[]`), y sin usar directamente `import`.  
+La creación se realizó en **Visual Studio Code**, utilizando la **extensión de Python** y gestionando versiones con **Git** desde la terminal integrada.
 
----
+# Características principales
+- Genera de manera automática una contraseña de 12 caracteres.
+- Incluye letras mayúsculas, minúsculas y números.
+- Generación completamente aleatoria mediante código sencillo.
+- Perfecto como práctica para aprender lógica de programación básica.
 
-## 💡 Funcionalidades principales
-
-- Generación automática de una contraseña de 12 caracteres.
-- Usa letras mayúsculas, minúsculas y números.
-- Generación completamente aleatoria usando código básico.
-- Ideal como ejercicio práctico de programación sencilla.
-
----
-
-## 🧠 Tecnologías usadas
-
+# Tecnologías utilizadas
 - Python 3
-- Git (desde la terminal)
+- Visual Studio Code
+- Extensión de Python para VS Code
+- Git (terminal integrada)
 - GitHub (repositorio público)
 
----
-
-## 📁 Estructura del proyecto
+# Estructura del proyecto
 generador-seguro-contraseñas/
 │
-├── main.py # Código del generador
-├── README.md # Descripción del proyecto
-├── diagramas/ # Diagramas de flujo en formato imagen o PDF
+├── main.py # Código del generador de contraseñas
+├── README.md # Documentación del proyecto
+├── diagramas/ # Diagramas de flujo (imagen o PDF)
 └── imagenes/ # Evidencias del entorno o funcionamiento
 
-## ▶️ Cómo ejecutar
+# Cómo ejecutar
+1. Abre **Visual Studio Code**.
+2. Abre la carpeta que contiene el proyecto.
+3. Asegúrate de tener instalada la extensión de Python.
+4. Abre el archivo `main.py`.
+5. Haz clic en el botón **Run (▶️)** o presiona `Ctrl + F5`.
+6. Se mostrará una contraseña generada aleatoriamente en la terminal.
 
-1. Abre tu terminal.
-2. Navega hasta la carpeta del proyecto.
-3. Ejecuta el archivo con:
+# Propósito del proyecto
+Desarrollado como parte de un ejercicio de aprendizaje en la creación de software. Aplica lógica de programación básica, manejo de Git, GitHub y configuración de entornos en Visual Studio Code.
 
-```bash
-python main.py
-4.-Se mostrará en pantalla una contraseña generada al instante.
+# Evidencia del trabajo
+- Video explicativo que muestra:
+  - El repositorio en GitHub.
+  - Configuración de entorno (VS Code, Python).
+  - Funcionamiento del código.
+- Diagramas de flujo dentro de la carpeta `/diagramas`.
 
-### 📌 ¿Qué hacer ahora?
+# Desarrollado por
+**Nerquis Carrera**  
+Proyecto académico: Generador Seguro de Contraseñas  
+Julio 2025
 
-1. Abre la terminal:
-   ```bash
-   cd generador-seguro-contraseñas
-   nano README.md
-2. Pega el contenido de arriba.
-3. Guarda y sube los cambios:
-git add README.md
-git commit -m "Agrego README personalizado del proyecto"
-git push
-
+¿Qué debes hacer ahora?
+1. Abre Visual Studio Code.
+2. En el explorador, haz doble clic en el archivo README.md.
+3. Pega todo el contenido anterior reemplazando lo que haya o si está vacío.
+4. Guarda con Ctrl + S.
+5. Abre la terminal integrada (con Ctrl + ñ) y sube el cambio a GitHub:
+   git add README.md
+   git commit -m "Actualizo README.md con descripción completa del proyecto"
+   git push
 
 
